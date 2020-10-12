@@ -20,14 +20,14 @@ int main()
     double* buft;
     double* buftt;
   
-    fp = fopen("datat.wav", "r");
+    fp = fopen("data.wav", "r");
     if(fp == NULL)
 	{
 	    printf("FILE COULD NOT BE READ\n");
 	    exit(-1);
 	}
   
-    fp1 = fopen("Newdatat.wav", "w");
+    fp1 = fopen("Newdata.wav", "w");
     if(fp1 == NULL)
 	{
 	    printf("FILE COULD NOT BE OPENED\n");
